@@ -45,10 +45,10 @@ troubleshooting any issues with the portable weather station.
   raspberry pi used for collecting the data. This program is known as a
   an FTP client. FTP stands for 'File Transfer Protocol' and it is a way to
   connect remotely and be able to transfer the file to your computer. This way,
-  no external keyboard and screen is required to save transfer the data.
+  no external keyboard and screen is required to save and transfer the data.
 
   Opening FileZilla, you will be greeted with a window sectioned off into
-  4 main sections. The top section, that stretches across the top, is where
+  3 main windows. The top section, that stretches across the top, is where
   information pertaining to your connection will be displayed, we wont be
   worry about it. The next section down is 1 window, split down the middle.
   These windows are the important ones. The window on the left is your local
@@ -68,7 +68,7 @@ troubleshooting any issues with the portable weather station.
 
   Click 'Quickconnect'
 
-  The top banner with have network information displayed that we can ignore.
+  The top banner with network information displayed, we can ignore.
   Once connected, in the middle window on the right, you will see a file
   explorer for the Raspberry Pi you are now connected to.
 
@@ -77,13 +77,14 @@ troubleshooting any issues with the portable weather station.
   stored inside the folder labeled "OutputData"
 
   Inside this folder will be all the data that is collected. The program
-  names the files in the following way:
+  names the files in the following format:
   WeatherData;yyyy-mm-dd.csv
 
   The date that corresponds the file name is only the date on which the
   data collection was started. If data was collected over multiple days,
   then the date in the name will contain the name of which the collection
-  was started. There will not be a file for every new day of data collection.
+  was started. There will not be a file for every new day of data collection,
+  if the data was collected continuously.
 
   To transfer the data to your local machine, you can click and drag the file
   to the left, into the folder you would like to put it in. This is exactly how
@@ -96,4 +97,4 @@ troubleshooting any issues with the portable weather station.
 
   You can close FileZilla when you are done without worrying about having to
   disconnect. You can reconnect at anytime to transfer future data in the same
-  way outlines above.
+  way outlined above.
